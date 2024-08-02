@@ -12,6 +12,7 @@ export class Listeners extends EventEmitter {
     super();
   }
 
+  
   public async start(config: {
     walletPublicKey: PublicKey;
     quoteToken: Token;
